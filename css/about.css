@@ -1,0 +1,157 @@
+#about{
+	padding-top:200px;
+	text-align:center;
+	margin-bottom:50px;
+}
+
+#about h1{
+	font-weight:800;
+	
+}
+#about h1 span{
+	font-weight:800;
+	color:lightgreen;
+}
+#about  p{
+	font-size:20px;
+	font-weight:bolder;
+}
+#middle h2{
+	font-weight:bolder;
+	padding-bottom:20px;
+}
+#middle1 img{
+	height:430px;
+	margin-top:20px;
+}
+#whitex{
+	background:white;
+}
+#content h2{
+	font-weight:bolder;
+	padding-bottom:5px;
+	text-align:center;
+	margin-top:50px;
+}
+#content h2 span{
+	font-weight:bolder;
+	padding-bottom:5px;
+	color:lightgreen;
+	text-align:center;
+	margin-top:50px;
+}
+#content p{
+	font-weight:bolder;
+	padding-bottom:25px;
+	text-align:center;
+	font-size:15px;
+}
+#wow11> I{
+	text-align:center;
+}
+#wow11 > H3{
+	text-align:center;
+	
+}
+#wow11>P{
+	text-align:center;
+}
+#wow1> I{
+	text-align:center;
+}
+#wow1 > H3{
+	text-align:center;
+	
+}
+#wow1 >P{
+	text-align:center;
+}
+#wow111> I{
+	text-align:center;
+}
+#wow111 > H3{
+	text-align:center;
+	
+}
+#wow111 > img{
+	width:490px;
+	margin-left:-15px;
+}
+#wow111 >P{
+	text-align:center;
+}
+#wow1{
+	border:1px solid transparent;
+	border:none;
+	background:white;
+	margin-left:-12px;
+	margin-bottom:50px;
+}
+#wow11{
+	border:1px solid transparent;
+	border:none;
+	background:white;
+	margin-left:10px;
+	margin-right:10px;
+	margin-bottom:50px;
+	
+}
+#wow111{
+	border:1px solid transparent;
+	border:none;
+	background:white;
+	margin-right:-12px;
+	margin-bottom:50px;
+	
+}
+
+#wow1:hover{
+	border:1px solid transparent;
+	border:none;
+	background:#3CB878;
+	margin-left:-12px;
+	margin-bottom:50px;
+	color:white;
+}
+#wow11:hover{
+	border:1px solid transparent;
+	border:none;
+	background:#3CB878;
+	margin-left:10px;
+	margin-right:10px;
+	margin-bottom:50px;
+	color:white;
+}
+#wow111:hover{
+	border:1px solid transparent;
+	border:none;
+	background:#3CB878;
+	margin-right:-12px;
+	margin-bottom:50px;
+	color:white;
+	
+}
+#wow1 h3{
+	font-weight:bolder;
+	
+}
+#wow11 h3{
+	font-weight:bolder;
+	
+}
+#wow111 h3{
+	font-weight:bolder;
+	
+}
+#wow1 h3:hover{
+	font-weight:bolder;
+	color:black;
+}
+#wow11 h3:hover{
+	font-weight:bolder;
+	color:black;
+}
+#wow111 h3:hover{
+	font-weight:bolder;
+	color:black;
+}

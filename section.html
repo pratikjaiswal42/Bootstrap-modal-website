@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Source_Code | Section</title>
+
+    <!-- Bootstrap -->
+	
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<script src="jquery.js"></script>
+	<link href="project1.css" rel="stylesheet">
+	<link href="class.css" rel="stylesheet">
+	<link href="fontawesome/css/font-awesome.min.css" rel="stylesheet">
+	<link href="css/about.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+   
+	 
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+	
+		
+		
+		<div class="modal fade" id="popup">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<!--header  -->
+					<div class="modal-header">
+						<h3>Log in Window</h3>
+						<button type="button" class="close" data-dismiss="modal">&times;
+					</div>
+					<!--body (model)  -->
+					<div class="modal-body">
+						<table style="margin-bottom:10px;">
+							<tr>
+								<td style="margin-right:10px;">
+									<button  type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#popup">facebook</button>
+								</td>
+								<td>
+									<button  type="button" class="btn btn-danger btn-lg" data-toggle="modal" data-target="#popup">Google</button>
+								</td>
+							</tr>
+						</table>
+						<hr />
+						<form role="form" method="POST" action="login.html">
+							<div class="form-group">
+								<input type="email" name="login_email" placeholder="Enter Your Email Here" class="form-control"/>
+							</div>
+							<div class="form-group">
+								<input type="password" name="login_pass" placeholder="Enter Your Password Here" class="form-control"/>
+							</div>
+						</form>
+					</div>
+					 
+					<!--login button  -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-primary btn-lg btn-block">Log in</button>
+					</div>
+				</div>
+			
+			</div>
+		
+		</div>
+		
+		<div class="modal fade" id="popup1">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<!--header  -->
+					<div class="modal-header">
+						<h3>SignUp Window</h3>
+						<button type="button" class="close" data-dismiss="modal">&times;
+					</div>
+					<!--body (model)  -->
+					<div class="modal-body">
+						<table style="margin-bottom:8px;">
+							<tr>
+								<td style="margin-right:10px;">
+									<button  type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#popup">facebook</button>
+								</td>
+								<td>
+									<button  type="button" class="btn btn-danger btn-lg" data-toggle="modal" data-target="#popup">Google</button>
+								</td>
+							</tr>
+						</table>
+						<hr />
+						<form role="form" method="POST" action="login.html">
+							<div class="form-group">
+								<input type="text" name="name" placeholder="Enter Your Name Here" class="form-control"/>
+							</div>
+							<div class="form-group">
+								<input type="email" name="email" placeholder="Enter Your Email Here" class="form-control"/>
+							</div>
+							<div class="form-group">
+								<input type="password" name="pass" placeholder="Enter Your Password Here" class="form-control"/>
+							</div>
+							<div class="form-group">
+								<input type="password" name="re_pass" placeholder="Retype Your Password Here" class="form-control"/>
+							</div>
+						</form>
+					</div>
+					 
+					<!--login button  -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-success btn-lg btn-block">Register</button>
+					</div>
+				</div>
+			
+			</div>
+		
+		</div>
+		 <!--
+        |========================
+        |   Navbar
+        |========================
+        -->
+	<div class="container" >	
+		<nav id="navn" class="navbar navbar-inverse navbar-fixed-top nav-scroll" >
+			
+			<div class="navbar-header">
+				<button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#action"  aria-label="Left Align">
+					<i class="fa fa-navicon"></i>
+				</button>
+				
+				<a class="navbar-brand" id="brand" href="#">Source_Code</a>
+						
+			</div>
+
+			<div class="collapse navbar-collapse" id="action">
+			<ul class="nav navbar-nav  " >
+				<li  ><a href="index.html" ><span class="glyphicon glyphicon-home "></span> Home</a></li>
+				<li  ><a href="about.html"><span class="glyphicon glyphicon-info-sign"></span> About</a></li>
+				<li class="active" ><a href="section.html"><span class="glyphicon glyphicon-cog"></span> Section</a></li>
+				<li  ><a href="bussiness.html"><span class="glyphicon glyphicon-bitcoin"></span> Bussiness</a></li>
+				
+			
+			
+			
+				<li  class="dropdown">
+				<a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span> Account<span class="caret"></span></a>
+					<ul class="dropdown-menu">
+						<li><a href="#"><span class="glyphicon glyphicon-star"></span> Profile</a></li>
+						<li><a href="#"><span class="glyphicon glyphicon-ok"></span> Contact</a></li>
+					</ul>
+				</li>
+				<li  ><a href="#"><span class="glyphicon glyphicon-lock"></span> Logout</a></li>
+			</ul>
+			<ul class="nav navbar-nav pull-right" >
+				<li >
+					<form class="form-inline">
+						<div class="form-group">
+							<div class="input-group" id="search">
+								<input type="search" class="form-control" placeholder="Search">
+								
+								<div class="input-group-addon">
+									<i class="fa fa-search"></i>
+								</div>
+							</div>
+						</div>
+					</form>
+				</li>
+				
+				<li><a><button type="button" class="form-control btn btn-primary" data-toggle="modal" data-target="#popup">Log in</button></a></li>
+				<li id="or"><span >OR</span></li>
+				<li><a><button type="button" class="form-control btn btn-success" data-toggle="modal" data-target="#popup1" >Sign up</button></a></li>
+			</ul>
+			
+		</div>
+		</div>
+		</nav>
+
+		
+	<div id="whitex">
+		<div class="container" id="about">
+			<h1>SECTION <span>COMES HERE</span></h1>
+			<p>Sed diam metus, facilisis eu diam sit amet pulvinar dictum quam odio lorem</p>
+		</div>
+		
+	</div>	
+	
+	<!--
+		
+		=====================
+		   Section
+		=====================
+		-->
+		
+	<div class="jumbotron" id="sec">
+			
+			<div class="container">
+				<h1 class="display-3" >WANT TO DONATE FOR HELP THE WORLD ?</h1>
+				<p class="lead" >Phasellus et diam nec massa lobortis venenatis. Nullam varius enim at eros ullamcorper semper. Sed diam metus, facilisis eu.</p>
+				<p class="text-right"> - Sed diam metus, facilisis eu.</p>
+				<button id="b1" class="btn btn-secondary btn-lg">Donate Now...</button>
+			</div>
+		
+		
+	</div>
+	
+	<div id="whitex">
+		<div class="container" id="about">
+			<h1>FEATURED  <span>CLIENTS</span></h1>
+			<p>Get a head-start with one of the included page demos or start experimenting.</p>
+		</div>
+		
+	</div>	
+	
+			<!--
+		==============
+		  CONTACT 
+		==============
+		-->
+		<div class="container  shadow">
+			<div class="row">
+				<div class=" col-sm-12 col-xs-12  ">
+				
+					<div id="contact">
+						<h2 style=" font-weight:900;">CONTACT <span style="color:#49BD81; font-weight:900;">US</span></h2>
+						
+						<form id="form1">
+							<fieldset class="form-group ">
+								<input id="h1w" class="form-control " width="400" type="text" placeholder="Name*">
+							</fieldset>
+							<fieldset class="form-group">
+								<input class="form-control " width="400" type="email" placeholder="Email*">
+							</fieldset>
+							<fieldset class="form-group">
+								<textarea class="form-control " placeholder="Message*"></textarea>
+							</fieldset>
+							
+								<button style="font-weight:700;" class="btn btn-lg  btn-success">SEND MESSAGE</button>
+							
+						</form>
+						
+					</div>
+				</div>
+			</div>
+		
+		</div>
+		
+		<footer class="panel-footer" id="footer">
+			<div class="container">
+				
+				<div class="row section-separator">
+					<div style="font-size:17px;color:#878A8E;" class="col-md-3">
+					<h1 style="color:white; margin-bottom:40px;margin-top:20px;">States</h1>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p><br>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+						<br><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p><br>
+						
+					</div>
+					<div class="col-md-3">
+						<h1 style="color:white; margin-bottom:40px;">Pages</h1>
+						<p style=" margin-bottom:20px;margin-top:20px;"><a style="color:#878A8E;font-size:20px;text-decoration:none;" href="about.html">About Us</a></p>
+                        <p style=" margin-bottom:20px;margin-top:20px;"><a style="color:#878A8E;font-size:20px;text-decoration:none;" href="section.html">Section</a></p>
+						<p style=" margin-bottom:20px;margin-top:20px;"></p><a style="color:#878A8E;font-size:20px;text-decoration:none;" href="bussiness.html">Bussiness</a></p>
+						<p style=" margin-bottom:20px;margin-top:20px;"><a style="color:#878A8E;font-size:20px;text-decoration:none;" href="index.html">Account</a></p>
+						<p style=" margin-bottom:20px;margin-top:20px;"><a style="color:#878A8E;font-size:20px;text-decoration:none;" href="index.html">Service</a></p>
+					</div>
+				
+					<div class="col-md-3">
+						<h1 style="color:white; margin-bottom:40px;">Contact Us</h1>
+						<h3>OFFICE LOCATION</h3>
+						<p>754 Salt lake city, Australia.</p>
+                        <hr class="n-y-2">
+						
+						
+						<h3>CONTACT INFO</h3>
+						<p>+0123 456 789012</p>
+                        <hr class="n-y-2">
+						
+						
+						<h3>MAIL ADDRESS</h3>
+						<p>contact@charitus.com</p>
+                        <hr class="n-y-2">
+					</div>
+					<div class="col-md-3">
+						<h1 style="color:white; margin-bottom:40px;">Services</h1>
+						<h3>RIDE FOR THIS</h3>
+						<p>Raised: $11,000</p>
+						<p>Goal: $11,000</p>
+						
+						<h3>LIVE CONCERT</h3>
+						<p>Raised: $11,000</p>
+						<p>Goal: $11,000</p>
+						
+						<h3>SMILE FOR SUN</h3>
+						<p>Raised: $11,000</p>
+						<p>Goal: $11,000</p>
+				</div>
+				
+			</div>
+			<br><br><hr style="color:#878A8E;" class="n-y-2">
+			<p class=" text-right" style="font-size:17px;color:#878A8E;">&copy; copyright 2017 | All right reserved</p><br>
+		</footer>
+		</div>
